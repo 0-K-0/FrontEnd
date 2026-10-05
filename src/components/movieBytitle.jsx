@@ -1,7 +1,7 @@
 import useFetch from "../useFetch";
 const MovieByTitle = ({ title }) => {
   const { data, loading, error } = useFetch(
-    `http://localhost:3000/movies/${title}`,
+    `https://be1-1-cw-be.onrender.com/movies/${title}`,
   );
 
   return data ? (
